@@ -1,21 +1,24 @@
-# primero
+# aqueductfirst
 
-## Running the Application Locally
+Aqueduct first appplication
 
-Run `aqueduct serve` from this directory to run the application. For running within an IDE, run `bin/main.dart`. By default, a configuration file named `config.yaml` will be used.
+## Overview
 
-To generate a SwaggerUI client, run `aqueduct document client`.
+| Attribute | Details |
+|-----------|---------|
+| **Language** | Dart |
+| **Size** | ~10.4 MB |
+| **Last Updated** | 2019-12-10T14:52:31Z |
 
-## Running Application Tests
+## Getting Started
 
-To run all tests for this application, run the following in this directory:
-
+```bash
+git clone https://github.com/FernandoMay/aqueductfirst.git
+cd aqueductfirst
+flutter pub get
+flutter run
 ```
-pub run test
-```
 
-The default configuration file used when testing is `config.src.yaml`. This file should be checked into version control. It also the template for configuration files used in deployment.
+## License
 
-## Deploying an Application
-
-See the documentation for [Deployment](https://aqueduct.io/docs/deploy/).
+MIT
